@@ -1,0 +1,33 @@
+| Step | Test Steps                                                                                              | Test Data               | Expected Result                                                                                                      |
+|------|----------------------------------------------------------------------------------------------------------|-------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| 1    | Open the extension.                                                                                     | -                       | The Welcome Back screen is shown.                                                                                    |
+| 2    | Proceed to Unlock the wallet.                                                                           | password (8+ chars)     | Wallet unlocked successfully.                                                                                        |
+| 3    | Click three-dot menu in top-right corner.                                                               |-                        | General settings page appears.                                                                                      |
+| 4    | Verify default language matches system locale (e.g., English if local time is EST).                      |-                        | Default selected language is correct based on system locale.                                                        |
+| 5    &nbsp;                                         & Check dropdown scroll functionality; resize browser window.| -                       |- Drop-down works and scrolls correctly when resized.-                                                              |
+6 &nbsp;&nbsp;&nbsp;&nbsp;
+User selects Spanish language.
+Verify app UI updates accordingly.
+
+|-语言更新检查-& 应用程序的UI已根据所选语言正确更新。- 
+7& 命令行选项无效时，刷新页面并登出后验证语言是否保持。
+-& 页面重新加载和注销后，确认语言仍保持。
+
+& 其他页面导航不影响选择丹麦语时的语言设置。
+-& 导航到其他页面不会影响应用程序中选定的丹麦克罗纳语（丹文）。
+
+9& 在发送屏幕输入无效帐户地址；验证错误消息是否随所选语言更改而更新。
+- 输入有效帐户地址；验证错误信息是否会按照所选的语言进行相应的更改。
+- 错误消息被相应地更新为所选的语言变化。
+
+10& 验证在主屏幕上的账户和桥梁提示工具提示是否根据马内卡·哈林迪（印地安人）的选择进行了相应的更改。
+- 在主页上对账户和桥接器显示的工具提示应相应于马内卡·哈林迪（印度语）的选择而得到更正。
+
+
+11 &
+选择匈牙利语；
+核实NFT标签中的超文本链接是否随选择了该种新设定而发生了改变。
+
+
+
+|- 超文本链接应该随着匈牙利语的选择发生适当的变化，并且正确呈现出来 |
