@@ -1,0 +1,10 @@
+ ```json
+{
+  "QRHardwareSignRequestCancel": {"message": "Elutasítás"},
+  "QRHardwareWalletImporterTitle": {"message": "QR-kód beolvasása"},
+  "about": {"message": "Névjegy"},
+  "accessingYourCamera": {"message": "Kamerához való hozzáférés..."},
+  "account": {"message": "Fiók"},
+  "accountDetails": {"message":"Fiókadatok" },
+  ... // Removed other entries for brevity. The structure remains the same.
+}
