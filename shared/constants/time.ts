@@ -1,0 +1,5 @@
+const MILLISECONDS = 1;
+const SECONDS = MILLISECONDS * 1000;
+const MINUTES = SECONDS * 60;
+const HOURS = MINUTES * 60;
+const DAYS = HOURS * 24;
